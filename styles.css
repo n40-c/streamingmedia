@@ -1,9 +1,7 @@
 /*GLOBAL STYLES*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,200&display=swap');
-
 html {
     background-color: #020659;
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', 'Optima', sans-serif;
     font-weight: normal;
     color: white;
 }
@@ -25,6 +23,13 @@ h1, h2, h3 {
 }
 h3, dd, dt {
     font-size: 16px;
+}
+h3 {
+    margin: 0px 20px 5px;
+}
+.scroll p {
+    margin-top: 0px;
+    padding: 0 10px;
 }
 dt {
     font-weight: 200;
@@ -272,9 +277,9 @@ audio::-webkit-media-controls-enclosure {
 
 /*FOOTER STYLES*/
 footer{
-    margin-top: 2.5em;
+    margin-top: 2em;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
